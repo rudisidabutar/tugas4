@@ -52,17 +52,6 @@ int main() {
         Peg[N].NAkhir = 0.4 * Peg[N].NMid + 0.6 * Peg[N].NSemester;
         gotoxy(5, 8);
         cout << "Nilai Akhir : " << Peg[N].NAkhir << endl;
-        
-        if (Peg[N].NAkhir >= 80)
-            Peg[N].NHuruf = 'A';
-        else if (Peg[N].NAkhir >= 70)
-            Peg[N].NHuruf = 'B';
-        else if (Peg[N].NAkhir >= 55)
-            Peg[N].NHuruf = 'C';
-        else if (Peg[N].NAkhir >= 40)
-            Peg[N].NHuruf = 'D';
-        else
-            Peg[N].NHuruf = 'E';
             
         gotoxy(5, 9);
         cout << "Nilai Huruf    : " << Peg[N].NHuruf << endl;
